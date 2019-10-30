@@ -7,5 +7,5 @@ int main(){
     int B;
     cin >> A;
     cin >> B;
-    cout << A - B << endl; //AからBを引いて出力する
+    cout << A - B << endl; //AからBを引いて出力
 }
