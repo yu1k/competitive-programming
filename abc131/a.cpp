@@ -16,6 +16,7 @@ int main(){
     if (isgood){
         cout << "Good" << endl;
     } else {
-        cout << "Bad" << endl;
+        cout << "Bad" << endl; 
     }
 }
+
