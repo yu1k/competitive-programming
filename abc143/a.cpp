@@ -16,7 +16,7 @@ int main(){
 
 
 
-//こちらで解く方法もある
+//こちらで解く方法もある。
 #include <iostream>
 
 using namespace std;
