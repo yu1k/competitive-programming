@@ -9,10 +9,10 @@ int main(){
         for(int j = 1; j <= 9; ++j){
             if(i * j == N){
                 cout << "Yes" << endl;
-              return 0; //return 0;をしないとWAしました..
+              return 0; //return 0;をしないとWAしました.
             }
         }
     }
   cout << "No" << endl;
-  return 0;  //return 0;をしないとWAしました..
+  return 0;  //return 0;をしないとWAしました.
 }
