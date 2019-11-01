@@ -4,9 +4,7 @@ using namespace std;
 
 int main(){
     int A;
-    //Aを定義
     int B;
-    //Bを定義
     cin >> A >> B;
     if(A % 2 != B % 2){
         cout << "IMPOSSIBLE" << endl;
