@@ -1,3 +1,4 @@
+//ACできてない
 #include <iostream>
 #include <string>
 
@@ -32,6 +33,6 @@ int main(){
     } else if(duplicategoodc &&duplicategoodc){
         cout << "Yes" << endl;
     } else {
-        cout << "No" << endl;
+        cout << "No" << endl;　
     }
 }
