@@ -23,6 +23,21 @@ cout << max({a, b, c}) << endl;
 cout << min({a, b, c}) << endl;
 
 
+
+//charインクリメントできる
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    char a;
+    cin >> a;
+    a++;
+    cout << a << endl;
+}
+
+
+
 //入力された3つの数字の中央値を出力するコード/ソートのテンプレート
 //https://atcoder.jp/contests/abc019/tasks/abc019_1
 #include <iostream>
