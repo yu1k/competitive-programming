@@ -54,3 +54,19 @@ int main(){
     sort(S.begin(), S.end());
     cout << S[1] << endl;
 }
+
+
+//repマクロを使ってみた
+#include <iostream>
+
+#define rep(i, n) for (int i = 0; i < (int)(n); i++)
+
+using namespace std;
+
+int main(){
+    int a;
+    cin >> ;
+    rep(i, 100){
+        cout << a << endl;
+    }
+}
