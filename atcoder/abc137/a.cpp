@@ -4,8 +4,8 @@
 using namespace std;
 
 int main(){
-    int k;
-    int x;
-    cin >> k >> x;
-    cout << max({k + x, k - x, k * x}) << endl;
+    int a;
+    int b;
+    cin >> a >> b;
+    cout << max({a + b, a - b, a * b}) << endl;
 }
