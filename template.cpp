@@ -15,6 +15,10 @@ int main(){
 }
 
 
+//競プロで使う変数の意味
+sum == summation;
+ans == answer;
+
 //文字列の長さを測る
 string s;
 int a = strlen(s);
