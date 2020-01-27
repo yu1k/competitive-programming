@@ -30,6 +30,9 @@ cout << max({a, b, c}) << endl;
 //小さいものを出力
 cout << min({a, b, c}) << endl;
 
+//小数点以下を切り捨てる.この関数を使う場合はcmathをincludeする.
+cout << ceil(a) << endl;
+
 
 //絶対値を取得
 #include <iostream>
