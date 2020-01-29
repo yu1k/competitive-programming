@@ -1,4 +1,4 @@
-# competition_programming_code
+# competitive-programming
 
 競技プログラミングで書いたコードを保存しておくためのリポジトリ<br>
 基本C++で書いていますが、たまーにJavaやPythonで書いたりもしてます<br>
