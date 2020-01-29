@@ -33,17 +33,8 @@ cout << min({a, b, c}) << endl;
 //小数点以下を切り捨てる.この関数を使う場合はcmathをincludeする.
 cout << ceil(a) << endl;
 
-
-//絶対値を取得
-#include <iostream>
-
-using namespace std;
-
-int main(){
-    int a;
-    cin >> a;
-    cout << abs(a) << endl;
-}
+//絶対値を取得して出力, この関数を使うときは cmath をincludeする.
+cout << abs(a) << endl;
 
 
 //charインクリメントできる
