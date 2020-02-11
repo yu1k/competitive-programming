@@ -92,7 +92,7 @@ int main(){
     cout << a[0] << endl;
 }
 
-//sort();が1行で書ける降順ソート
+//降順ソートが1行で書ける降順ソート
 #include <iostream>
 #include <vector>
 #include <algorithm>
