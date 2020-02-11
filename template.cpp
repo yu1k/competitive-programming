@@ -16,14 +16,13 @@ int main(){
 }
 
 
-//競プロで使う変数の意味
+//競プロで使う変数名の意味
 sum == summation;
 ans == answer;
 
 //文字列の長さを測る
 string s;
 int a = strlen(s);
-
 
 //大きいものを出力
 cout << max({a, b, c}) << endl;
@@ -39,6 +38,9 @@ cout << abs(a) << endl;
 
 //stringで受け取った文字を大文字に変換..aをAに変換する.
 a[0] = a[0] + 'A' - 'a';
+
+//三項演算子, aとbが等しかったらYes.等しくなかったらNo.
+cout << (a == b?"Yes":"No") << endl;
 
 
 //charインクリメントできる
