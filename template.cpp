@@ -20,9 +20,10 @@ int main(){
 sum == summation;
 ans == answer;
 
-//文字列の長さを測る
+//文字列の長さを測って出力
 string s;
-int a = strlen(s);
+int a = s.length();
+cout << a << endl;
 
 //大きいものを出力
 cout << max({a, b, c}) << endl;
