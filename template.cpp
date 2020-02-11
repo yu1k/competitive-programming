@@ -37,6 +37,9 @@ cout << ceil(a) << endl;
 //絶対値を取得して出力, この関数を使うときは cmath をincludeする.
 cout << abs(a) << endl;
 
+//stringで受け取った文字を大文字に変換..aをAに変換する.
+a[0] = a[0] + 'A' - 'a';
+
 
 //charインクリメントできる
 #include <iostream>
@@ -112,7 +115,7 @@ using namespace std;
 
 int main(){
     int a;
-    cin >> ;
+    cin >> a;
     rep(i, 100){
         cout << a << endl;
     }
