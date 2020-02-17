@@ -43,6 +43,17 @@ a[0] = a[0] + 'A' - 'a';
 //三項演算子, aとbが等しかったらYes.等しくなかったらNo.
 cout << (a == b?"Yes":"No") << endl;
 
+//ソートの方法を見やすくまとめた.
+//昇順ソート
+sort(s.begin(), s.end());
+
+//降順ソート(reverse関数を用いた方法)
+sort(s.begin(), s.end());
+reverse(s.begin(), s.end());
+
+//降順ソート(greaterクラスを用いて一行に収める方法)
+sort(s.begin(), s.end(), greater<int>());
+
 
 //charインクリメントできる
 #include <iostream>
