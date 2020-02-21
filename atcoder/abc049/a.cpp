@@ -3,9 +3,9 @@
 using namespace std;
 
 int main(){
-    char = c;
+    char c;
     cin >> c;
-    if(c == ('a' || 'e' || 'i' || 'o' || 'u'){
+    if(c == 'a' ||c == 'e' || c == 'i' || c == 'o' || c == 'u'){
         cout << "vowel" << endl;
     }
     else{
