@@ -54,6 +54,8 @@ reverse(s.begin(), s.end());
 //降順ソート(greaterクラスを用いて一行に収める方法)
 sort(s.begin(), s.end(), greater<int>());
 
+//M_PI. 円周率, πを使える. このライブラリを使うときは cmath をincludeする.
+cout << r * r * M_PI << endl;
 
 //charインクリメントできる
 #include <iostream>
