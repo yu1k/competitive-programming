@@ -27,3 +27,7 @@ http://judge.u-aizu.ac.jp/onlinejudge/index.jsp
 ## 参考にしている本
 ### プログラミングコンテスト攻略のためのアルゴリズムとデータ構造
 https://book.mynavi.jp/ec/products/detail/id=35408
+
+## 言語について
+### C++日本語リファレンス
+https://cpprefjp.github.io/
