@@ -44,6 +44,9 @@ cout << abs(a) << endl;
 //a以下で最大の整数値を得る, 
 cout << floor(a) << endl;
 
+//aのb乗を求める, この関数を使うときはcmathをincludeする.
+cout << pow(a, b) << endl;
+
 //stringで受け取った文字を大文字に変換..aをAに変換する.
 a[0] = a[0] + 'A' - 'a';
 
