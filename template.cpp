@@ -16,7 +16,7 @@
 using namespace std;
 
 int main(){
-    
+    cout << "Hello World!" << endl;
 }
 
 
@@ -41,7 +41,7 @@ cout << ceil(a) << endl;
 //絶対値を取得して出力, この関数を使うときは cmath をincludeする.
 cout << abs(a) << endl;
 
-//a以下で最大の整数値を得る, この関数を使うときは cmath をincludeする.
+//a以下で最大の整数値を得る, 
 cout << floor(a) << endl;
 
 //stringで受け取った文字を大文字に変換..aをAに変換する.
