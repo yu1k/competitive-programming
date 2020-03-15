@@ -47,6 +47,9 @@ cout << floor(a) << endl;
 //aのb乗を求める, この関数を使うときはcmathをincludeする.
 cout << pow(a, b) << endl;
 
+//複素数値の平方根を得る, aの平方根を出力. この関数を使うときはcmathをincludeする.
+cout << sqrt(a) << endl;
+
 //stringで受け取った文字を大文字に変換..aをAに変換する.
 a[0] = a[0] + 'A' - 'a';
 
