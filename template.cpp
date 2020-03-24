@@ -50,6 +50,9 @@ cout << pow(a, b) << endl;
 //複素数値の平方根を得る, aの平方根を出力. この関数を使うときはcmathをincludeする.
 cout << sqrt(a) << endl;
 
+//文字列sを数に変換.
+cout << stoi(s) << endl;
+
 //stringで受け取った文字を大文字に変換..aをAに変換する.
 a[0] = a[0] + 'A' - 'a';
 
