@@ -21,8 +21,7 @@ int main(){
 
 
 //競プロで使う変数名の意味
-sum == summation;
-ans == answer;
+sum == summation; //総和
 
 //文字列の長さを測って出力
 string s;
