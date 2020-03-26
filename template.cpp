@@ -19,6 +19,10 @@ int main(){
     cout << "Hello World!" << endl;
 }
 
+//出力
+cout << "Hello, World" << endl;
+//小数点第一位まで出力
+printf("%.1f\n", a); //doubleで入力
 
 //競プロで使う変数名の意味
 sum == summation; //総和
