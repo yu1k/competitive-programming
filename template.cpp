@@ -35,6 +35,9 @@ cout << a << endl;
 //size(), charなどの配列のサイズを取得するとき.
 cout << c.size() << endl;
 
+//文字列の長さを取得するとき.
+cout << s.length() << endl;
+
 //大きいものを出力
 cout << max({a, b, c}) << endl;
 
