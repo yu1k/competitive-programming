@@ -32,6 +32,9 @@ string s;
 int a = s.length();
 cout << a << endl;
 
+//size(), charなどの配列のサイズを取得するとき.
+cout << c.size() << endl;
+
 //大きいものを出力
 cout << max({a, b, c}) << endl;
 
