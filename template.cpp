@@ -19,6 +19,9 @@ int main(){
     cout << "Hello World!" << endl;
 }
 
+//入力数が指定されてない入力
+while(cin >> n){ ... }
+
 //出力
 cout << "Hello, World" << endl;
 //小数点第一位まで出力
