@@ -62,11 +62,18 @@ cout << pow(a, b) << endl;
 //複素数値の平方根を得る, aの平方根を出力. この関数を使うときはcmathをincludeする.
 cout << sqrt(a) << endl;
 
+//文字. stringをincludeして使う
 //文字列sを数に変換.
 cout << stoi(s) << endl;
 
 //stringで受け取った文字を大文字に変換..aをAに変換する.
 a[0] = a[0] + 'A' - 'a';
+
+//1番目の部分文字列を取得
+cout << s.substr(1) << endl;
+
+//1番目から2番目の部分文字列を取得
+cout << s.substr(1, 2) << endl;
 
 //三項演算子, aとbが等しかったらYes.等しくなかったらNo.
 cout << (a == b?"Yes":"No") << endl;
