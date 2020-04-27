@@ -41,6 +41,9 @@ cout << c.size() << endl;
 //文字列の長さを取得するとき.
 cout << s.length() << endl;
 
+//配列で受け取った文字，a[i]を文字コードに変換.
+string s = to_string(a[i]);
+
 //大きいものを出力
 cout << max({a, b, c}) << endl;
 
