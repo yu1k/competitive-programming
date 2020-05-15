@@ -44,6 +44,9 @@ cout << s.length() << endl;
 //配列で受け取った文字，a[i]を文字コードに変換.
 string s = to_string(a[i]);
 
+//s[0]が大文字か判定．小文字:0, 大文字:0以外を返す．
+isupper(s[0]);
+
 //大きいものを出力
 cout << max({a, b, c}) << endl;
 
