@@ -5,6 +5,8 @@
 #include <string>
 #include <cmath>
 #include <cctype>
+#include <queue>
+#include <deque>
 
 #define mod 1000000007
 #define ab 123456789
