@@ -14,5 +14,5 @@ int main(){
     for(int i = 0; i < 9; i++){
         cout << name[i] << " " << a[i] + b[i] << " " << (a[i] * 200) + (b[i] * 300) << endl;
     }
-    return 0;
+    return 0; 
 }
