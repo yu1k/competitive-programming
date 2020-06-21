@@ -100,6 +100,9 @@ reverse(s.begin(), s.end());
 //降順ソート(greaterクラスを用いて一行に収める方法)
 sort(s.begin(), s.end(), greater<int>());
 
+//要素の並びを逆にする この関数を使うときはalgorithmをincludeする
+reverse(a.begin(), a.end());
+
 //M_PI. 円周率, πを使える. このライブラリを使うときは cmath をincludeする.
 cout << r * r * M_PI << endl;
 
